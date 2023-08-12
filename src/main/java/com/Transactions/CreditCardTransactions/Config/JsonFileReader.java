@@ -9,7 +9,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class JsonFileReader {
 	
-	private static final String JSON_FILE_PATH = "D:/transactionsMock.json";
+	private static final String JSON_FILE_PATH = "transactionsMock.json";
 
     public List<TransactionModel> readJsonFile() throws IOException
     
